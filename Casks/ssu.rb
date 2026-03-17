@@ -3,7 +3,7 @@ cask "ssu" do
   name "ssu"
   desc "Smart Submodule Updater - intelligent git submodule management"
   homepage "https://github.com/pxpxltd/ssu"
-  version "1.1.4"
+  version "1.1.5"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "ssu" do
   on_macos do
     on_intel do
       url "https://github.com/pxpxltd/ssu/releases/download/v#{version}/ssu_#{version}_darwin_amd64.tar.gz"
-      sha256 "02e0790a51517d1d523e010bea2b41f44aa5c538ffe7bf1157dc2919fcdc0538"
+      sha256 "72649ec7ed722b959f643ed65f565c087791502365c77ac639094c59f75ed0a4"
     end
     on_arm do
       url "https://github.com/pxpxltd/ssu/releases/download/v#{version}/ssu_#{version}_darwin_arm64.tar.gz"
-      sha256 "6acbe29e6108b2f3af9ccb58b7d2992cee7dee129d98161ddfa697f35f1dc240"
+      sha256 "addfa38ebc02ac8aad047e7f7e30ef0f20068565d5be59d7eca16d4937155c06"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/pxpxltd/ssu/releases/download/v#{version}/ssu_#{version}_linux_amd64.tar.gz"
-      sha256 "9c5e44567e49ea8d7a1d31aab4ce6a2f0433c56d6d8a97ddb6d9025ccf2a204e"
+      sha256 "75772dd5211f2057383ba42865267857bac140c2315e25f1713923eafa4ee743"
     end
     on_arm do
       url "https://github.com/pxpxltd/ssu/releases/download/v#{version}/ssu_#{version}_linux_arm64.tar.gz"
-      sha256 "3aa8b9869aa770c95dab3daa49d024e8861325ffa7376d3d90a44ecf4240e8ca"
+      sha256 "79a5cf7d49f6d8d4545e18da7f8c1a1a94bae47ffc22b261947721e8cefefc7c"
     end
   end
 
